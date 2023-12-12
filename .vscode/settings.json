@@ -2,5 +2,12 @@
     "files.associations": {
         "iomanip": "cpp",
         "iostream": "cpp"
-    }
+    },
+    "makefile.launchConfigurations": [
+        {
+            "cwd": "c:\\Users\\acer\\Downloads\\calculate wages\\calculate wages",
+            "binaryPath": "c:\\Users\\acer\\Downloads\\calculate wages\\calculate wages\\main",
+            "binaryArgs": []
+        },
+    ]
 }

@@ -85,7 +85,7 @@ bool validateAbsentDays(int& absentDays) {
 }
 
 void calculateTax(Employee employees[], int numEmployees, int j){
-float absentWage;
+//float absentWage;
 
   employees[j].totalWagetax = employees[j].totalWage - (employees[j].totalWage * TAX_RATE);
 
@@ -114,7 +114,7 @@ void printToFile(Employee employees[], int numEmployees) {
 	
 	 for (int i = 0; i < numEmployees; i++) 
 	 	{
-            employees[i].absentDays;
+            //employees[i].absentDays;
 	 		myFile << "\n\t\t                       PROGRAMMING 4LIFE SDN.BHD.                              "<<endl;
     	    myFile << "\n\t\t                      monthly payslip                              "<<endl;
     myFile << "\t\t	/////////////////////////////////////////////////////////////////////////////////////"<<endl;
